@@ -102,10 +102,17 @@ p{
     letter-spacing: 6px;
 } 
 
-.pop .item{
+.selectsm .item, .pop .item{
     margin-left: 20px;
     width: 17px;
 }
+
+.disp{
+    display: none;
+}
+
+
+
 
 .arrow-down{
     width: 0;
@@ -118,9 +125,6 @@ p{
     top: 45px;
 }
 
-.disp{
-    display: none;
-}
 
 .content .info .share{
     float: right;
@@ -152,7 +156,17 @@ p{
         margin-bottom: 10px;
     }
 
-    
+    .info .selectsm{
+        display: none;
+        background-color: hsl(217, 19%, 35%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 0.9em;
+        letter-spacing: 6px;
+    }
+
 }
 
 
